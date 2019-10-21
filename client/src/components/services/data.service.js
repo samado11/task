@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { store } from '../../reducers';
 
-axios.defaults.baseURL = 'https://evening-plains-35255.herokuapp.com'
+axios.defaults.baseURL = 'https://evening-plains-35255.herokuapp.com/'
 axios.interceptors.response.use(res=> res.data, err=> Promise.reject(err.response))
 
 const getAuthHeader = () => ({Authorization: `Bearer ${store.getState().token}`})
