@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb://localhost:27017/OrderSystem",
+  "mongoURI": "mongodb+srv://samado:19182524cluster0-six29.mongodb.net/test?retryWrites=true&w=majority",
   "jwtSecret": "sl_myJwtSecret"
 }
